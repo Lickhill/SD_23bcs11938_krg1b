@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="CPeLEuS3wHsWwcmVQJZ-">
-    <mxGraphModel dx="3530" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2583" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,11 +202,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="POgH_NtzrAy4WgVxfnnP-92" edge="1" parent="1" source="POgH_NtzrAy4WgVxfnnP-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="POgH_NtzrAy4WgVxfnnP-46">
+        <mxCell id="POgH_NtzrAy4WgVxfnnP-92" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="POgH_NtzrAy4WgVxfnnP-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-620" y="1310" />
             </Array>
+            <mxPoint x="-280" y="1310.034482758621" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DU7T5AjQ3Fba45WKkysd-35" edge="1" parent="1" source="DU7T5AjQ3Fba45WKkysd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="POgH_NtzrAy4WgVxfnnP-135">
@@ -280,20 +281,14 @@
         <mxCell id="POgH_NtzrAy4WgVxfnnP-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="kafka service&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;decaoupling the services&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-513.01" y="1840" as="geometry" />
         </mxCell>
-        <mxCell id="POgH_NtzrAy4WgVxfnnP-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="call by kfka" vertex="1">
-          <mxGeometry height="30" width="60" x="-360" y="1260" as="geometry" />
-        </mxCell>
-        <mxCell id="POgH_NtzrAy4WgVxfnnP-95" edge="1" parent="1" source="POgH_NtzrAy4WgVxfnnP-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="POgH_NtzrAy4WgVxfnnP-94" value="">
+        <mxCell id="POgH_NtzrAy4WgVxfnnP-95" edge="1" parent="1" source="POgH_NtzrAy4WgVxfnnP-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="70" y="1310" />
             </Array>
             <mxPoint x="70" y="1557" as="sourcePoint" />
-            <mxPoint x="-570" y="1428" as="targetPoint" />
+            <mxPoint x="-290" y="1310" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="POgH_NtzrAy4WgVxfnnP-94" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" value="" vertex="1">
-          <mxGeometry height="30" width="40.5" x="-280" y="1300" as="geometry" />
         </mxCell>
         <mxCell id="POgH_NtzrAy4WgVxfnnP-101" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="fetches data that are not found in cDN" vertex="1">
           <mxGeometry height="30" width="130" x="-145" y="1576.35" as="geometry" />
@@ -407,6 +402,9 @@
         </mxCell>
         <mxCell id="POgH_NtzrAy4WgVxfnnP-135" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
           <mxGeometry height="60" width="49" x="-354.5" y="1576.35" as="geometry" />
+        </mxCell>
+        <mxCell id="8cPhEgcxitcPPvokSKK3-2" edge="1" parent="1" source="DU7T5AjQ3Fba45WKkysd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="POgH_NtzrAy4WgVxfnnP-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DU7T5AjQ3Fba45WKkysd-1" parent="1" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="Availability Zone" vertex="1">
           <mxGeometry height="141" width="316" x="-605.5" y="1540.85" as="geometry" />
