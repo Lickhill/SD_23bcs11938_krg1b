@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "buildCommand": "npm cache clean --force && npm install && npm run build",
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "builds": [
+        {
+            "src": "start.js",
+            "use": "@vercel/node",
+            "config": {
+                "includeFiles": [
+                    "prisma/**",
+                    ".env.local",
+                    "node_modules/.prisma/**"
+                ]
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "start.js"
+        }
+    ]
+}
